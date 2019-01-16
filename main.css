@@ -84,3 +84,8 @@
     text-align: center;
     padding: 25px;
 }
+
+.foot a{
+    color:#777;
+    font-weight: bold;
+}
