@@ -2,11 +2,25 @@
 
 .navbar {
     height:75px;
-    margin:0;
+    margin-bottom:0;
+    border:none;
     padding:0;
     background-color: #d3d3d3;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
     z-index: 10;
+    
+}
+
+.navbar-default {
+    margin:0;
+    padding:0;
+}
+
+.navbar a {
+    font-size: 1.5em;
+    color: navy;
+    margin-bottom:0;
+    border:none;
 }
 
 .navbar-header {
@@ -27,6 +41,46 @@
 
 /*--------------------------------------------------Homepage---------------------------*/
 
+.mainbody {
+    background-color: #f9f9f9;
+    margin:0;
+    padding-top: 25px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height:auto;
+}
+
+.servlink {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/*--------------------------------------------------Services---------------------------*/
+
+
+
+/*--------------------------------------------------Testimonials---------------------------*/
+
+
+
+/*--------------------------------------------------Hints&Tips---------------------------*/
+
+
+
+/*--------------------------------------------------Contact Us---------------------------*/
+
 
 
 /*--------------------------------------------------Footer---------------------------*/
+
+.foot {
+    background-color: #d3d3d3;
+    min-height:50px;
+    box-shadow: 0 -.5rem 1rem rgba(0,0,0,.15);
+    z-index: 10;
+    text-align: center;
+    padding: 25px;
+}
