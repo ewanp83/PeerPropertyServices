@@ -1,0 +1,32 @@
+/*--------------------------------------------------Navbar---------------------------*/
+
+.navbar {
+    height:75px;
+    margin:0;
+    padding:0;
+    background-color: #d3d3d3;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    z-index: 10;
+}
+
+.navbar-header {
+    background-color: #d3d3d3;
+    padding-bottom:25px;
+}
+
+.navbar-collapse {
+    background-color: #d3d3d3;
+}
+
+.nav-bg{
+    background-color: #d3d3d3;
+    margin:0;
+    padding:0;
+}
+
+
+/*--------------------------------------------------Homepage---------------------------*/
+
+
+
+/*--------------------------------------------------Footer---------------------------*/
