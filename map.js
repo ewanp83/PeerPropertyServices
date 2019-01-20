@@ -1,13 +1,8 @@
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 8,
-        center: {lat: 2.411630, lng: -1.778176}
+        zoom: 10,
+        center: {lat: 52.420782, lng: -1.763291}
     });
-    
-   var coverage = {
-        lat: 2.411630,
-        lng: -1.778176
-    };
     
     var coverageCircle = new google.maps.Circle({
       strokeColor: '#FF0000',
@@ -16,7 +11,7 @@ function initMap() {
       fillColor: '#FF0000',
       fillOpacity: 0.35,
       map: map,
-      center: coverage,
+      center: {lat: 52.420782, lng: -1.763291},
       radius: 8000
     });
 }

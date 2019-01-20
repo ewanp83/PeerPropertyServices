@@ -40,29 +40,32 @@
             </div>
         </div>
     </nav>
-    
+    <div class="container">
+        <h3> text across top of map and contact form</h3>
+    </div>
     <div class="container-fluid contactmainbody">
-        <div class="col-xs-12 col-md-6" id="map">
+        <div class="col-xs-12 col-md-6">
+            <div id="map"></div>
         </div>
         <div class="col-xs-12 col-md-6 contactform">
             <div class="contactform">
             <div class="form-group row">
-                <div class="col-6">
+                <div class="col-md-12">
                     <input class="form-control" type="text" placeholder="Name" id="name" required>
                 </div>
             </div>
             <div class="form-group row">
-                <div class="col-6">
+                <div class="col-md-12">
                     <input class="form-control" type="email" placeholder="Email Address" id="emailaddress" required>
                 </div>
             </div>
             <div class="form-group row">
-                <div class="col-6">
+                <div class="col-md-12">
                     <input class="form-control" type="tel" placeholder="Phone Number"  id="phonenumber" required>
                 </div>
             </div>
             <div class="form-group row">
-                <div class="col-6">
+                <div class="col-md-12">
                     <textarea class="form-control" id="projectdetails" rows="5" placeholder="Work Required" required></textarea>
                 </div>
             </div>
@@ -109,7 +112,7 @@
     </footer>
     
     <script type="text/javascript" src="map.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLwJ5oo3WHB0itwIJWQ0yrgzTfcvQTRME&callback=initMap" async defer></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLwJ5oo3WHB0itwIJWQ0yrgzTfcvQTRME&callback=initMap"></script>
     
 </body>
 
