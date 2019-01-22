@@ -1,3 +1,5 @@
+
+
 /*--------------------------------------------------Navbar---------------------------*/
 
 .navbar {
@@ -32,6 +34,8 @@
 }
 
 
+
+
 /*--------------------------------------------------Homepage---------------------------*/
 
 .mainbody {
@@ -39,6 +43,7 @@
     margin:0;
     padding-top: 25px;
     font-family: 'Mukta', sans-serif;
+    color: #777;
 }
 
 .img-fluid {
@@ -67,6 +72,7 @@
     background-color: #efefef;
     margin:0;
     padding-top: 25px;
+    padding-bottom: 25px;
     font-family: 'Mukta', sans-serif;
 }
 
@@ -99,32 +105,104 @@
     padding-top:0;
 }
 
+.modal-header {
+    background-color: #0e2f63;
+    color: #fff;
+}
 
+.modal-body {
+    background-color: #efefef;
+    color: #777;
+}
+
+.modal-footer {
+    background-color: #0e2f63;
+}
 /*--------------------------------------------------Testimonials---------------------------*/
 
+.testimonialbody {
+    background-color: #efefef;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.item {
+    font-family: 'Mukta', sans-serif;
+    padding:25px;
+}
+
+.carousel-control {
+    width: 6%
+}
+
+.carousel-control.right {
+    background-image: linear-gradient(to right,rgba(14,47,99,.0001) 0,rgba(14,47,99,.5) 100%);
+}
+
+.carousel-control.left {
+    background-image: linear-gradient(to left,rgba(14,47,99,.0001) 0,rgba(14,47,99,.5) 100%);
+}
+
+/*
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+  right: 10px; 
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+  left: 10px; 
+}
+*/
+
+.carousel-indicators {
+    bottom: -10px;
+}
 
 
 /*--------------------------------------------------Hints&Tips---------------------------*/
 
+.videoclips {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 
+.hintstipsbg {
+    background-color: #efefef;
+    height: 80vh;
+}
+
+.hintstipstext {
+    font-family: 'Mukta', sans-serif;
+    font-size: 2em;
+    color: #777;
+    text-align: center;
+    padding-top:25px;
+}
 
 /*--------------------------------------------------Contact Us---------------------------*/
 
+.contactbg {
+    background-color: #efefef;
+    color: #777;
+}
+
 .contactmainbody {
-    margin-top: 25px;
-    margin-bottom: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 #map {
-    height:300px;
-    width:100%
+    height:350px;
+    width:100%;
+    margin-bottom: 25px;
 }
 
 .submit {
     text-align: center;
+    font-family: 'Mukta', sans-serif;
 }
 
 /*--------------------------------------------------Footer---------------------------*/
+
 
 .foot {
     background-color: #0e2f63;
