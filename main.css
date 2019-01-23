@@ -52,7 +52,7 @@ body {
     flex: 1 0 auto;
     background-color: #efefef;
     margin:0;
-    padding-top: 25px;
+    padding-top: 75px;
     font-family: 'Mukta', sans-serif;
     color: #777;
 }
@@ -88,7 +88,7 @@ body {
     flex: 1 0 auto;
     background-color: #efefef;
     margin:0;
-    padding-top: 25px;
+    padding-top: 75px;
     padding-bottom: 25px;
     font-family: 'Mukta', sans-serif;
 }
@@ -145,13 +145,17 @@ body {
 .testimonialbody {
     flex: 1 0 auto;
     background-color: #efefef;
-    padding-top: 50px;
+    padding-top: 75px;
     padding-bottom: 50px;
 }
 
 .item {
     font-family: 'Mukta', sans-serif;
     padding:25px;
+}
+
+.slidepic {
+    margin-bottom: 10px;
 }
 
 .carousel-control {
@@ -198,7 +202,7 @@ body {
     font-size: 2em;
     color: #777;
     text-align: center;
-    padding-top:25px;
+    padding-top:75px;
 }
 
 /*--------------------------------------------------Contact Us---------------------------*/
@@ -210,7 +214,7 @@ body {
 }
 
 .contactmainbody {
-    padding-top: 25px;
+    padding-top: 75px;
     padding-bottom: 25px;
 }
 
@@ -235,7 +239,8 @@ body {
     box-shadow: 0 -.5rem 1rem rgba(14,47,99,.5);
     z-index: 10;
     text-align: center;
-    padding: 25px;
+    padding-top: 25px;
+    padding-bottom: 20px;
 }
 
 .foot a{
@@ -252,9 +257,13 @@ body {
 
 .btn-warning {
     background-color: #fca905;
+    margin-top: -10px;
 }
 
 .contactlink a:hover{
     color:#fff;
 }
 
+.footitem {
+    margin-top: 10px;
+}
