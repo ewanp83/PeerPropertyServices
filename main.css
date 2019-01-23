@@ -1,3 +1,13 @@
+html,
+body {
+    height:100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 
 
 /*--------------------------------------------------Navbar---------------------------*/
@@ -34,9 +44,12 @@
 }
 
 
+
+
 /*--------------------------------------------------Homepage---------------------------*/
 
 .mainbody {
+    flex: 1 0 auto;
     background-color: #efefef;
     margin:0;
     padding-top: 25px;
@@ -72,6 +85,7 @@
 /*--------------------------------------------------Services---------------------------*/
 
 .servicesbody {
+    flex: 1 0 auto;
     background-color: #efefef;
     margin:0;
     padding-top: 25px;
@@ -129,6 +143,7 @@
 /*--------------------------------------------------Testimonials---------------------------*/
 
 .testimonialbody {
+    flex: 1 0 auto;
     background-color: #efefef;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -174,6 +189,7 @@
 }
 
 .hintstipsbg {
+    flex: 1 0 auto;
     background-color: #efefef;
 }
 
@@ -188,6 +204,7 @@
 /*--------------------------------------------------Contact Us---------------------------*/
 
 .contactbg {
+    flex: 1 0 auto;
     background-color: #efefef;
     color: #777;
 }
@@ -212,6 +229,7 @@
 
 
 .foot {
+    flex-shrink: 0;
     background-color: #0e2f63;
     min-height:50px;
     box-shadow: 0 -.5rem 1rem rgba(14,47,99,.5);
