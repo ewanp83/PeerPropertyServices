@@ -1,3 +1,4 @@
+
 html,
 body {
     height:100%;
@@ -140,6 +141,18 @@ body {
 .modal-footer {
     background-color: #0e2f63;
 }
+
+.btn-primary {
+    background-color: #fca905;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #e39802;
+    color: #fff;
+}
+
+
 /*--------------------------------------------------Testimonials---------------------------*/
 
 .testimonialbody {
@@ -208,7 +221,7 @@ body {
 /*--------------------------------------------------Contact Us---------------------------*/
 
 .contactbg {
-    flex: 1 0 auto;
+    flex: 1 0 auto; 
     background-color: #efefef;
     color: #777;
 }
@@ -250,7 +263,7 @@ body {
     font-family: 'Mukta', sans-serif;
 }
 
-.foot a:hover {
+.footitem a:hover {
     text-decoration: none;
     color: #fca905;
 }
@@ -260,10 +273,18 @@ body {
     margin-top: -10px;
 }
 
-.contactlink a:hover{
-    color:#fff;
+.btn-warning:hover {
+    background-color: #e39802;
 }
 
 .footitem {
     margin-top: 10px;
+}
+
+.footitem1 {
+    margin-top: 10px;
+}
+
+.footitem1 a:hover {
+    color:#fff;
 }
