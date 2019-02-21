@@ -18,6 +18,7 @@ body {
     margin-bottom:0;
     border:none;
     padding:0;
+  /*  background: url(assets/Plumbing.jpg);  */
     background-color: #0e2f63;
     box-shadow: 0 .5rem 1rem rgba(14,47,99,.5);
     z-index: 10;
@@ -81,6 +82,10 @@ body {
 .serviceslink:hover {
     text-decoration: none;
     color: #fca905;
+}
+
+.logolink {
+    margin-bottom: 25px;
 }
 
 /*--------------------------------------------------Services---------------------------*/
