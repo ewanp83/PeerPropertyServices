@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <nav class="navbar">
+    <nav class="navbar navbar-fixed-top">
         <div class="container-fluid nav-bg">
 
             <div class="navbar-header">
@@ -40,35 +40,36 @@
             </div>
         </div>
     </nav>
+    <div class="row"></div>
     <div class="contactbg">
         <div class="container-fluid contactmainbody contactbg">
             <div class="col-xs-12 col-md-6">
-                <h4> We are based in Solihull and cover the surrounding areas including Knowle, Dorridge and Shirley. The map below gives a guide of our coverage area:</h4>
-                <br>
+                <p> We are based in Solihull and cover the surrounding areas including Knowle, Dorridge and Shirley. The map below gives a guide of our coverage area:</p>
+                
                 <div id="map"></div>
             </div>
-            <div class="col-xs-12 col-md-6 contactform contactbg">
-                <h4> If you have a project you would like to discuss or for a quote please use the form below and we'll aim to respond within 24hrs:</h4>
-                <br>
+            <div class="col-xs-12 col-md-6 contactform">
+                <p> If you have a project you would like to discuss or for a quote please use the form below and we'll aim to respond within 24hrs:</p>
+                
                 <div class="contactform">
                     <div class="form-group row">
                         <div class="col-md-12">
-                            <input class="form-control" type="text" placeholder="Name" id="name" required>
+                            <input class="form-control" name="name" type="text" placeholder="Name" id="name" required>
                         </div>
                     </div>
                     <div class="form-group row">
                         <div class="col-md-12">
-                            <input class="form-control" type="email" placeholder="Email Address" id="emailaddress" required>
+                            <input class="form-control" name="emailaddress" type="email" placeholder="Email Address" id="emailaddress" required>
                         </div>
                     </div>
                     <div class="form-group row">
                         <div class="col-md-12">
-                            <input class="form-control" type="tel" placeholder="Phone Number" id="phonenumber" required>
+                            <input class="form-control" name="phonenumber" type="tel" placeholder="Phone Number" id="phonenumber" required>
                         </div>
                     </div>
                     <div class="form-group row">
                         <div class="col-md-12">
-                            <textarea class="form-control" id="projectdetails" rows="5" placeholder="Work Required" required></textarea>
+                            <textarea class="form-control" name="work-required" id="projectdetails" rows="5" placeholder="Work Required" required></textarea>
                         </div>
                     </div>
                     <div class="submit">
@@ -107,7 +108,7 @@
                     </a>
                 </div>
                 <div class="col-md-2 footitem1">
-                    <a class="btn btn-warning" href="contact.html" role="button">HIRE US NOW!</a>
+                    <a class="btn btn-warning" href="contact.html" role="button"><strong>HIRE US NOW!</strong></a>
                 </div>
             </div>
         </div>

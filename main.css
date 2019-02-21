@@ -1,30 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta');
 
 html,
 body {
     height:100%;
+    font-family: 'Mukta', sans-serif;
+    background-color: #efefef;
+    color: #777;
 }
-
-body {
-  display: flex;
-  flex-direction: column;
-}
-
-
 
 /*--------------------------------------------------Navbar---------------------------*/
 
 .navbar {
     height:75px;
-    margin-bottom:0;
     border:none;
-    padding:0;
     background-color: #0e2f63;
-    box-shadow: 0 .5rem 1rem rgba(14,47,99,.5);
-    z-index: 10;
     color: #fff;
-    font-family: 'Mukta', sans-serif;
 }
-
 
 .navbar-nav li a:hover{
     background-color: #0e2f63;
@@ -34,10 +25,7 @@ body {
 .navbar-nav li a {
     color: #fff;
     font-size: 1.5em;
-}
-
-.navbar-header {
-    padding-bottom:25px;
+    margin-top: 14px;
 }
 
 .nav-bg{
@@ -49,69 +37,39 @@ body {
 
 /*--------------------------------------------------Homepage---------------------------*/
 
-.mainbody {
-    flex: 1 0 auto;
-    background-color: #efefef;
+.main-body {
     margin:0;
     padding-top: 75px;
-    font-family: 'Mukta', sans-serif;
-    color: #777;
 }
 
-.mainbody p {
-    font-size:18px;
+.main-body p {
+    font-size:1.5em;
+    padding-top:10px;
 }
+
+
 
 .img-fluid {
     max-width: 100%;
     height:auto;
 }
 
-.servlink {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.serviceslink {
-    color:#777;
-    font-weight: bold;
-    font-size: 1.5em;
-}
-
-.serviceslink:hover {
-    text-decoration: none;
-    color: #fca905;
-}
-
-.logolink {
-    margin-bottom: 25px;
+.logo-link {
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 /*--------------------------------------------------Services---------------------------*/
 
 .servicesbody {
-    flex: 1 0 auto;
-    background-color: #efefef;
     margin:0;
     padding-top: 75px;
     padding-bottom: 25px;
-    font-family: 'Mukta', sans-serif;
-}
-
-.servicelink {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.topservicelink {
-    text-align: center;
-    margin-bottom: 5px;
 }
 
 .service {
-    color:#777;
-    font-weight: bold;
     font-size: 1.5em;
+    text-align: center;
 }
 
 .service:hover {
@@ -120,11 +78,9 @@ body {
 }
 
 .servicetext {
-    font-family: 'Mukta', sans-serif;
     font-size: 2em;
-    color: #777;
     text-align: center;
-    margin-top: 0;
+    margin-top: 30px;
     padding-top:0;
 }
 
@@ -135,7 +91,6 @@ body {
 
 .modal-body {
     background-color: #efefef;
-    color: #777;
 }
 
 .modal-body p {
@@ -148,26 +103,23 @@ body {
 
 .btn-primary {
     background-color: #fca905;
-    color: #fff;
+    
 }
 
 .btn-primary:hover {
     background-color: #e39802;
-    color: #fff;
+    
 }
 
 
 /*--------------------------------------------------Testimonials---------------------------*/
 
 .testimonialbody {
-    flex: 1 0 auto;
-    background-color: #efefef;
     padding-top: 75px;
     padding-bottom: 50px;
 }
 
 .item {
-    font-family: 'Mukta', sans-serif;
     padding:25px;
 }
 
@@ -202,29 +154,22 @@ body {
     padding-bottom: 40px;
 }
 
-.hintstipsbg {
-    flex: 1 0 auto;
-    background-color: #efefef;
-}
-
 .hintstipstext {
-    font-family: 'Mukta', sans-serif;
     font-size: 2em;
-    color: #777;
+    
     text-align: center;
-    padding-top:75px;
+    padding-top:100px;
 }
 
 /*--------------------------------------------------Contact Us---------------------------*/
 
 .contactbg {
-    flex: 1 0 auto; 
-    background-color: #efefef;
-    color: #777;
+    margin-top: 100px;
+    font-size: 1.3em;
 }
 
 .contactmainbody {
-    padding-top: 75px;
+    padding-top: 25px;
     padding-bottom: 25px;
 }
 
@@ -236,28 +181,24 @@ body {
 
 .submit {
     text-align: center;
-    font-family: 'Mukta', sans-serif;
+    margin-top: 25px;
 }
 
 /*--------------------------------------------------Footer---------------------------*/
 
 
 .foot {
-    flex-shrink: 0;
     background-color: #0e2f63;
     min-height:50px;
-    box-shadow: 0 -.5rem 1rem rgba(14,47,99,.5);
-    z-index: 10;
     text-align: center;
     padding-top: 25px;
     padding-bottom: 20px;
+    
 }
 
 .foot a{
-    color:#fff;
     font-size: 1.3em;
-    font-weight: bold;
-    font-family: 'Mukta', sans-serif;
+    color: #fff;
 }
 
 .footitem a:hover {
