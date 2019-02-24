@@ -20,37 +20,39 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-fixed-top">
-        <div class="container-fluid navbar-background">
+    <div class="row">
+        <nav class="navbar navbar-fixed-top">
+            <div class="container-fluid navbar-background">
 
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
                 <i class="fa fa-bars fa-3x">
                 </i>
         </button>
-                <a class="navbar-brand" href="index.html"><img src="assets/logo-white.png" alt="Peer Property Services Home"></a>
+                    <a class="navbar-brand" href="index.html"><img src="assets/logo-white.png" alt="Peer Property Services Home"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="hintstips.html">Hints & Tips</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="collapse navbar-collapse" id="navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="testimonials.html">Testimonials</a></li>
-                    <li><a href="hintstips.html">Hints & Tips</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    
-    <div class="contact-background">
+        </nav>
+    </div>
+
+    <div class="row contact-background">
         <div class="container-fluid contact-main-body">
             <div class="col-xs-12 col-md-6">
                 <p class="contact-text"> We are based in Solihull and cover the surrounding areas including Knowle, Dorridge and Shirley. The map below gives a guide of our coverage area:</p>
-                
+
                 <div id="map"></div>
             </div>
             <div class="col-xs-12 col-md-6">
                 <p class="contact-text"> If you have a project you would like to discuss or for a quote please use the form below and we'll aim to respond to you within 24hrs:</p>
-                
+
                 <div class="contact-form">
                     <div class="form-group row">
                         <div class="col-md-12">
@@ -69,7 +71,7 @@
                     </div>
                     <div class="form-group row">
                         <div class="col-md-12">
-                            <textarea class="form-control" name="work-required" id="projectdetails" rows="5" placeholder="Work Required" required></textarea>
+                            <textarea class="form-control" name="workrequired" id="projectdetails" rows="5" placeholder="Work Required" required></textarea>
                         </div>
                     </div>
                     <div class="submit-btn">
@@ -80,42 +82,46 @@
 
         </div>
     </div>
+
     <footer>
-        <div class="container-fluid">
-            <div class="row footer">
-                <div class="col-md-3 footer-link">
-                    <a href="tel:07445674311">
+        <div class="row">
+            <div class="container-fluid">
+                <div class="row footer">
+                    <div class="col-md-3 footer-link">
+                        <a href="tel:07445674311">
                         <i class="fa fa-phone"></i>
                         07445 674311
                     </a>
-                </div>
-                <div class="col-md-3 footer-link">
-                    <a href="mailto:ewan@peerpropertyservices.co.uk">
+                    </div>
+                    <div class="col-md-3 footer-link">
+                        <a href="mailto:ewan@peerpropertyservices.co.uk">
                         <i class="fa fa-envelope-o"></i>
                         ewan@peerpropertyservices.co.uk
                     </a>
-                </div>
-                <div class="col-md-2 footer-link">
-                    <a href="https://www.facebook.com/peerpropertyservices/" target="blank">
+                    </div>
+                    <div class="col-md-2 footer-link">
+                        <a href="https://www.facebook.com/peerpropertyservices/" target="blank">
                         <i class="fa fa-facebook"></i>
                         Facebook
                     </a>
-                </div>
-                <div class="col-md-2 footer-link">
-                    <a href="https://www.flickr.com/photos/peerpropertyservices/with/33128472614/" target="blank">
+                    </div>
+                    <div class="col-md-2 footer-link">
+                        <a href="https://www.flickr.com/photos/peerpropertyservices/with/33128472614/" target="blank">
                         <i class="fa fa-flickr"></i>
                         Flickr
                     </a>
-                </div>
-                <div class="col-md-2 footer-btn">
-                    <a class="btn btn-warning" href="contact.html" role="button"><strong>HIRE US NOW!</strong></a>
+                    </div>
+                    <div class="col-md-2 footer-btn">
+                        <a class="btn btn-warning" href="contact.html" role="button"><strong>HIRE US NOW!</strong></a>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
+
     <script type="text/javascript" src="map.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLwJ5oo3WHB0itwIJWQ0yrgzTfcvQTRME&callback=initMap"
-    async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLwJ5oo3WHB0itwIJWQ0yrgzTfcvQTRME&callback=initMap" async defer></script>
+
 </body>
 
 </html>

@@ -245,7 +245,8 @@ body {
 @media only screen and (min-width: 992px) {
     .index-body {height:90vh; padding-top: 10vh}
     .index-image-link {margin-top:50px;}
-    .contact-background {height:78vh;}
+    .services-body {height:92vh;}
+    .contact-background {height:76vh;}
     .hintstips-background {height:90vh; padding-top: 2vh}
     .testimonial-body {height:90vh; padding-top: 20vh}
 }
