@@ -29,7 +29,7 @@ body {
     margin-top: 14px;
 }
 
-.nav-bg{
+.navbar-background {
     background-color: #0e2f63;
 }
 
@@ -38,12 +38,12 @@ body {
 
 /*--------------------------------------------------Homepage---------------------------*/
 
-.main-body {
+.index-body {
     margin:0;
     padding-top: 75px;
 }
 
-.main-body p {
+.index-body p {
     font-size:1.5em;
     padding-top:10px;
 }
@@ -53,30 +53,30 @@ body {
     height:auto;
 }
 
-.logo-link {
+.index-image-link {
     margin-top: 20px;
     margin-bottom: 50px;
 }
 
 /*--------------------------------------------------Services---------------------------*/
 
-.servicesbody {
+.services-body {
     margin: 0;
     padding-top: 75px;
     padding-bottom: 25px;
 }
 
-.service {
+.services-img-link {
     font-size: 1.5em;
     text-align: center;
 }
 
-.service:hover {
+.services-img-link:hover {
     text-decoration: none;
     color: #fca905;
 }
 
-.servicetext {
+.services-top-text {
     font-size: 2em;
     text-align: center;
     margin-top: 30px;
@@ -112,11 +112,8 @@ body {
 
 
 /*--------------------------------------------------Testimonials---------------------------*/
-.quotes {
-    font-size: 1.3em;
-}
 
-.testimonialbody {
+.testimonial-body {
     padding-top: 75px;
     padding-bottom: 50px;
 }
@@ -125,7 +122,7 @@ body {
     padding:25px;
 }
 
-.slidepic {
+.slide-img {
     margin-bottom: 10px;
 }
 
@@ -149,28 +146,31 @@ body {
     background-color: #0e2f63;
 }
 
+.slide-quote {
+    font-size: 2em;
+}
 /*--------------------------------------------------Hints&Tips---------------------------*/
 
-.videoclips {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.hintstipstext {
+.hintstips-text {
     font-size: 2em;
     text-align: center;
     padding-top:100px;
 }
 
+.video-clip {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 /*--------------------------------------------------Contact Us---------------------------*/
 
-.contactbg {
+.contact-background {
     margin-top: 100px;
     font-size: 1.3em;
    
 }
 
-.contactmainbody {
+.contact-main-body {
     padding-top: 25px;
     padding-bottom: 25px;
     
@@ -182,19 +182,19 @@ body {
     margin-bottom: 25px;
 }
 
-.submit {
+.submit-btn {
     text-align: center;
     margin-top: 25px;
 }
 
-.contact {
+.contact-text {
     font-size: 1.3em;
     margin-bottom: 30px;
 }
 
 /*--------------------------------------------------Footer---------------------------*/
 
-.foot {
+.footer {
     background-color: #0e2f63;
     min-height:50px;
     text-align: center;
@@ -202,12 +202,16 @@ body {
     padding-bottom: 20px;
 }
 
-.foot a{
+.footer a{
     font-size: 1.3em;
     color: #fff;
 }
 
-.footitem a:hover {
+.footer-link {
+    margin-top: 10px;
+}
+
+.footer-link a:hover {
     text-decoration: none;
     color: #fca905;
 }
@@ -221,15 +225,11 @@ body {
     background-color: #e39802;
 }
 
-.footitem {
+.footer-btn {
     margin-top: 10px;
 }
 
-.footitem1 {
-    margin-top: 10px;
-}
-
-.footitem1 a:hover {
+.footer-btn a:hover {
     color:#fff;
 }
 
@@ -237,28 +237,28 @@ body {
 
 @media only screen and (min-width: 768px) {
     .main-body {height:110vh; padding-top: 130px}
-    .contactbg {height:95vh;}
-    .hintstipsbg {height:120vh; padding-top: 50px}
-    .testimonialbody {height:120vh; padding-top: 150px}
+    .contact-background {height:95vh;}
+    .hintstips-background {height:120vh; padding-top: 50px}
+    .testimonial-body {height:120vh; padding-top: 150px}
 }
 
 @media only screen and (min-width: 992px) {
-    .main-body {height:90vh; padding-top: 10vh}
-    .logo-link {margin-top:50px;}
-    .contactbg {height:78vh;}
-    .hintstipsbg {height:90vh; padding-top: 2vh}
-    .testimonialbody {height:90vh; padding-top: 20vh}
+    .index-body {height:90vh; padding-top: 10vh}
+    .index-image-link {margin-top:50px;}
+    .contact-background {height:78vh;}
+    .hintstips-background {height:90vh; padding-top: 2vh}
+    .testimonial-body {height:90vh; padding-top: 20vh}
 }
 /*
 @media only screen and (min-width: 1200px) {
-    .main-body {height:92vh; padding-top: 80px}
-    .logo-link {margin-top:60px;}
-    .contactbg {height:78vh;}
-    .hintstipsbg {height:90vh; padding-top: 10px}
-    .testimonialbody {height:90vh; padding-top: 150px}
+    .index-body {height:92vh; padding-top: 80px}
+    .index-image-link {margin-top:60px;}
+    .contact-background {height:78vh;}
+    .hintstips-background {height:90vh; padding-top: 10px}
+    .testimonial-body {height:90vh; padding-top: 150px}
 }*/
 
 @media only screen and (max-width: 768px) {
-    .footitem1 {margin-top: 25px;}
+    .footer-btn {margin-top: 25px;}
 }
 
