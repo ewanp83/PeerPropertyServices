@@ -265,3 +265,6 @@ body {
     .footer-btn {margin-top: 25px;}
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .body {padding-right:25px;}
+}
