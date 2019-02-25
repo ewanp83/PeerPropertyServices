@@ -239,7 +239,7 @@ body {
     .main-body {height:110vh; padding-top: 130px}
     .contact-background {height:95vh;}
     .hintstips-background {height:120vh; padding-top: 50px}
-    .testimonial-body {height:120vh; padding-top: 150px}
+    .testimonial-body {height:140vh; padding-top: 150px}
 }
 
 @media only screen and (min-width: 992px) {
