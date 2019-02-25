@@ -246,9 +246,9 @@ body {
     .index-body {height:90vh; padding-top: 10vh}
     .index-image-link {margin-top:50px;}
     .services-body {height:92vh;}
-    .contact-background {height:76vh;}
+    .contact-background {height:80vh;}
     .hintstips-background {height:90vh; padding-top: 2vh}
-    .testimonial-body {height:90vh; padding-top: 20vh}
+    .testimonial-body {height:95vh; padding-top: 20vh}
 }
 /*
 @media only screen and (min-width: 1200px) {
