@@ -16,6 +16,8 @@ body {
     border:none;
     background-color: #0e2f63;
     color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .navbar-nav li a:hover{
@@ -41,6 +43,8 @@ body {
 .index-body {
     margin:0;
     padding-top: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .index-body p {
@@ -64,6 +68,8 @@ body {
     margin: 0;
     padding-top: 75px;
     padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .services-img-link a {
@@ -118,6 +124,8 @@ body {
 .testimonial-body {
     padding-top: 75px;
     padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .item {
@@ -153,6 +161,11 @@ body {
 }
 /*--------------------------------------------------Hints&Tips---------------------------*/
 
+.hintstips-background {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .hintstips-text {
     font-size: 2em;
     text-align: center;
@@ -169,6 +182,8 @@ body {
 .contact-background {
     margin-top: 100px;
     font-size: 1.3em;
+    padding-left: 20px;
+    padding-right: 20px;
    
 }
 
@@ -202,6 +217,8 @@ body {
     text-align: center;
     padding-top: 25px;
     padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .footer a{
