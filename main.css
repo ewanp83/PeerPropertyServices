@@ -12,12 +12,12 @@ body {
 /*--------------------------------------------------Navbar---------------------------*/
 
 .navbar {
-    height:75px;
+    height:80px;
     border:none;
     background-color: #0e2f63;
     color: #fff;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .navbar-nav li a:hover{
@@ -37,14 +37,14 @@ body {
 
 
 
-
 /*--------------------------------------------------Homepage---------------------------*/
 
 .index-body {
-    margin:0;
+    margin-top: 25px;
     padding-top: 75px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    
 }
 
 .index-body p {
@@ -66,10 +66,7 @@ body {
 
 .services-body {
     margin: 0;
-    padding-top: 75px;
-    padding-bottom: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 75px 25px 25px 25px;
 }
 
 .services-img-link a {
@@ -89,6 +86,13 @@ body {
     text-align: center;
     margin-top: 30px;
     padding-top:0;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.modal {
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .modal-header {
@@ -122,10 +126,7 @@ body {
 /*--------------------------------------------------Testimonials---------------------------*/
 
 .testimonial-body {
-    padding-top: 75px;
-    padding-bottom: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 75px 25px 50px 25px;
 }
 
 .item {
@@ -162,14 +163,16 @@ body {
 /*--------------------------------------------------Hints&Tips---------------------------*/
 
 .hintstips-background {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .hintstips-text {
     font-size: 2em;
     text-align: center;
     padding-top:100px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .video-clip {
@@ -182,15 +185,11 @@ body {
 .contact-background {
     margin-top: 100px;
     font-size: 1.3em;
-    padding-left: 20px;
-    padding-right: 20px;
    
 }
 
 .contact-main-body {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    
+    padding: 25px;
 }
 
 #map {
@@ -215,10 +214,7 @@ body {
     background-color: #0e2f63;
     min-height:50px;
     text-align: center;
-    padding-top: 25px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 25px 25px 20px 25px;
 }
 
 .footer a{
@@ -262,7 +258,7 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
-    .index-body {height:90vh; padding-top: 10vh}
+    .index-body {height:85vh; padding-top: 10vh}
     .index-image-link {margin-top:50px;}
     .services-body {height:92vh;}
     .contact-background {height:80vh;}
