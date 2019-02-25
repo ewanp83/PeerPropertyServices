@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Mukta');
 
-html,
 body {
     height:100%;
     font-family: 'Mukta', sans-serif;
     background-color: #efefef;
     color: #777;
     margin: 0;
+    padding:0;
 }
 
 /*--------------------------------------------------Navbar---------------------------*/
@@ -44,7 +44,6 @@ body {
     padding-top: 75px;
     padding-left: 25px;
     padding-right: 25px;
-    
 }
 
 .index-body p {
@@ -214,6 +213,7 @@ body {
     background-color: #0e2f63;
     min-height:50px;
     text-align: center;
+    margin-top: 50px;
     padding: 25px 25px 20px 25px;
 }
 
@@ -248,6 +248,8 @@ body {
     color:#fff;
 }
 
+
+
 /*-----------------------------------------------Media Query--------------------*/
 
 @media only screen and (min-width: 768px) {
@@ -258,12 +260,12 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
-    .index-body {height:85vh; padding-top: 10vh}
+    .index-body {height:80vh; padding-top: 10vh}
     .index-image-link {margin-top:50px;}
-    .services-body {height:92vh;}
-    .contact-background {height:80vh;}
+    .services-body {height:100vh;}
+    .contact-background {height:78vh;}
     .hintstips-background {height:90vh; padding-top: 2vh}
-    .testimonial-body {height:95vh; padding-top: 20vh}
+    .testimonial-body {height:90vh; padding-top: 20vh}
 }
 /*
 @media only screen and (min-width: 1200px) {
