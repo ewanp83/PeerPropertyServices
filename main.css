@@ -66,12 +66,14 @@ body {
     padding-bottom: 25px;
 }
 
-.services-img-link {
+.services-img-link a {
     font-size: 1.5em;
     text-align: center;
+    text-decoration: none;
+    color: #777;
 }
 
-.services-img-link:hover {
+.services-img-link a:hover {
     text-decoration: none;
     color: #fca905;
 }
