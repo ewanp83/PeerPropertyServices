@@ -35,8 +35,6 @@ body {
     background-color: #0e2f63;
 }
 
-
-
 /*--------------------------------------------------Homepage---------------------------*/
 
 .index-body {
@@ -113,14 +111,11 @@ body {
 
 .btn-primary {
     background-color: #fca905;
-    
 }
 
 .btn-primary:hover {
     background-color: #e39802;
-    
 }
-
 
 /*--------------------------------------------------Testimonials---------------------------*/
 
@@ -159,6 +154,7 @@ body {
 .slide-quote {
     font-size: 2em;
 }
+
 /*--------------------------------------------------Hints&Tips---------------------------*/
 
 .hintstips-background {
@@ -184,7 +180,6 @@ body {
 .contact-background {
     margin-top: 100px;
     font-size: 1.3em;
-   
 }
 
 .contact-main-body {
@@ -248,9 +243,7 @@ body {
     color:#fff;
 }
 
-
-
-/*-----------------------------------------------Media Query--------------------*/
+/*-----------------------------------------------Media Queries--------------------*/
 
 @media only screen and (min-width: 768px) {
     .main-body {height:110vh; padding-top: 130px}
@@ -260,21 +253,13 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
-    .index-body {height:80vh; padding-top: 10vh}
+    .index-body {height:85vh; padding-top: 10vh}
     .index-image-link {margin-top:50px;}
-    .services-body {height:100vh;}
+    .services-body {height:120vh;}
     .contact-background {height:78vh;}
     .hintstips-background {height:90vh; padding-top: 2vh}
     .testimonial-body {height:90vh; padding-top: 20vh}
 }
-/*
-@media only screen and (min-width: 1200px) {
-    .index-body {height:92vh; padding-top: 80px}
-    .index-image-link {margin-top:60px;}
-    .contact-background {height:78vh;}
-    .hintstips-background {height:90vh; padding-top: 10px}
-    .testimonial-body {height:90vh; padding-top: 150px}
-}*/
 
 @media only screen and (max-width: 768px) {
     .footer-btn {margin-top: 25px;}
