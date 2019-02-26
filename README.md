@@ -4,22 +4,22 @@ Website design for Peer Property Services
 This website was created for Peer Property Services to allow customers to see what services they offer, the area they cover, view examples of previous work and to make contact.
 
 <h3>UX</h3>
-Peer property services wanted a site to allow them to show what services are available to customers, where they operate, to showcase their work and to allow potential customers to make contact.  They also wanted the site to link to their existing facebook and flickr sites.
+Peer property services wanted a site to allow them to show what services are available to customers, where they operate, to showcase their work and to allow potential customers to make contact.  They also wanted the site to link to their existing facebook and flickr sites. The colour palette is in keeping with their company colours.
 
 The homepage gives an oversight of the company services and where they operate with the text offering reassurance that they are a company that can be relied on. The navbar making it easy to see where to go for more information.
-<a href="/wireframes/index-wireframe." target="blank">Homepage wireframe</a>
+<a href="/wireframes/homepage-wireframe.jpg" target="blank">Homepage wireframe</a>
 
 The services page allows the user to access more detailed information about the specific type of service they require with modals specifying the type of work available and the hire us now button to take you straight to the contact page to get in touch or request a quote.
-<a href="/wireframes/services-wireframe." target="blank">Services wireframe</a>
+<a href="/wireframes/services-wireframe.jpg" target="blank">Services wireframe</a>
 
 The tesimonials allow the user to see examples of work carried out without bombarding the user with too many pictures or text and the short testimonials next to the images offer reassurance to the user that the company has carried out this work to a high standard and can be relied on.
-<a href="/wireframes/testimonials-wireframe." target="blank">Testimonials wireframe</a>
+<a href="/wireframes/testimonials-wireframejpg." target="blank">Testimonials wireframe</a>
 
 The hints and tips page will be available to show users how to do certain jobs around the house to keep the work carried out in top condition and for any other useful information the company feels appropriate at the time. 
-<a href="/wireframes/hintstips-wireframe." target="blank">Hints & Tips wireframe</a>
+<a href="/wireframes/hintstips-wireframejpg." target="blank">Hints & Tips wireframe</a>
 
 The contact page map shows a general geographical location that the company operate in so that a user can easily see whether they would be able to use the services and a simple contact form to be able to get a quote or to initiate a conversation with the company to discuss a project.
-<a href="/wireframes/contact-wireframe." target="blank">Contact wireframe</a>
+<a href="/wireframes/contact-wireframe.jpg" target="blank">Contact wireframe</a>
 
 So for example if a user wanted a shower changed, they would land on the homepage, be able to click the services link in the navbar or image and then the plumbing image which would show that the service is offered, click the hire us now button on the modal to link straight to the contact page where they see a map of the coverage area and to fill in the form and get a quote.  Alternately they may wish to view the testimonials page which is easily navigated to as the navbar remains at the top of the page and then go to the contact page or call the company directly using the phone or email link in the footer.
 
