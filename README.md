@@ -13,10 +13,10 @@ The services page allows the user to access more detailed information about the 
 <a href="/wireframes/services-wireframe.jpg" target="blank">Services wireframe</a>
 
 The tesimonials allow the user to see examples of work carried out without bombarding the user with too many pictures or text and the short testimonials next to the images offer reassurance to the user that the company has carried out this work to a high standard and can be relied on.
-<a href="/wireframes/testimonials-wireframejpg." target="blank">Testimonials wireframe</a>
+<a href="/wireframes/testimonials-wireframe.jpg" target="blank">Testimonials wireframe</a>
 
 The hints and tips page will be available to show users how to do certain jobs around the house to keep the work carried out in top condition and for any other useful information the company feels appropriate at the time. 
-<a href="/wireframes/hintstips-wireframejpg." target="blank">Hints & Tips wireframe</a>
+<a href="/wireframes/hintstips-wireframe.jpg" target="blank">Hints & Tips wireframe</a>
 
 The contact page map shows a general geographical location that the company operate in so that a user can easily see whether they would be able to use the services and a simple contact form to be able to get a quote or to initiate a conversation with the company to discuss a project.
 <a href="/wireframes/contact-wireframe.jpg" target="blank">Contact wireframe</a>
